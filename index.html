@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Vania Ramirez" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web FullStack de Vania Ramirez"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Titulo -->
+    <title>Vania Ramirez | Web development portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Iconos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" 
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="imagenes/icono.png"
+              width="50"
+              alt="Logo de la página web"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-imagen-desarrollador rounded-circle"
+          src="imagenes/PROFILE.jpeg"
+          alt="Foto de Jane Doe"
+        />
+        <h1>Hello, I am Vania Ramirez</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="imagenes/hero-inferior.svg"
+          alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React."
+        />
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">About Vania Ramirez</h2>
+        <p class="seccion-texto">
+          Telematics engineer. Interested in the development, implementation and
+          testing of software technologies. Someone positive, able to adapt to
+          change and provide creative solutions using my skills throughout the
+          phases.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Profile - FullStack Web Development</p>
+            <p>
+              I build responsive, modern and minimalistic websites with
+              technologies demanded in the web development industry.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">Spring Boot</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Education</p>
+            <p>
+              Recently graduated from Telematic Engineering, I am always looking
+              to keep myself updated through trainings and certifications
+              through e-learning platforms.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Full Stack Development</span>
+              <span class="badge text-bg-primary">Telematics Engineer</span>
+              <span class="badge text-bg-primary"
+                >Computer Aided Manufacturing Technician</span
+              >
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Soft Skills</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              laoreet, odio eget fringilla scelerisque, sem purus fringilla
+              mauris, nec ultricies nisl nisl sit amet dolor.
+            </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Teamwork</span>
+              <span class="badge text-bg-primary">Time Optimization</span>
+              <span class="badge text-bg-primary">Problem Solving Skills</span>
+              <span class="badge text-bg-primary">Resilience</span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section
+      id="proyectos"
+      class="proyectos-recientes seccion-clara d-flex flex-column"
+    >
+      <h2 class="seccion-titulo texto-negro">My recent projects</h2>
+      <h3 class="seccion-descripcion">
+        These are some of the projects I have recently created...
+      </h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAABYlBMVEX///+brLx/f3/x8fF6enru7u6drr/19fW7u7uAf36LlqCuvMbx8vD18/f+//36+vquvMV2dnaFhYWfn5+YprP///qXl5ff39/W1ta0tLSNjY3m5ub8///c3NzGxsapqanQ0NDFxcWurq7///P4twCRkZFra2v4+v/o6/B7fICam5rd29QyNjZUVk+kpKMQBgA2MizH2vmQseV2oO6gvu3f6vvk8ufL48/g7/VsmucmePcweOlLju2f0a4AliRNi/XT5vkAnDl6pej219HyxsD65t/8+uX56cG1yfTlS0TkGxPscm704ZT13oAfevEobejmhHnvIiHqGQDnNDTrmI7wzEDuzVDv39zpPy3ldGnsq6D8x0HxwxTgZVrwhnr8wQDO5eHtY2Obw/Dzk5FekefdSi/21HTA2ubruarcjXvcVkeStvT26K2u0r+mp8zQ0t2EhLa5u9eVmMTHx9fAw+Sdn7klXS+WAAAMtElEQVR4nO2ci2PaxhnAL0iK1BqkSKrQ+4GwA6Ebm12ndUzaZLHduF5LXm7qtskeaZe2yxaV0vz/+04nwGCwfR0I0dwvCehxOt39/N2nE7FAVxiXBi27AasEk0UBk0UBk0UBk0XBUNZVxkwmZb33LmMmE7KuvnujNH/4eVZ2Y+I9L26U+PcmZZXemScgSi05jgavmMsdpDnTSuL24rocUtc7G3Nt6MVAk6bImuvPQ21ZIkKKUHMuHV68pMzY4UScjBBX0/gSryNtXm28HNMi68ZcZfEBUqJQt32E7MvamiVLtZEcxXpsIUXnc5eFB8liZakRCkoqxAHvuANbPH/K2ukVsvzOSNZYyRJvI19TYZuqCag1lDWruvGD/38WLosPUU3NllXiilfbdljKNqpabLfUzKGq4x2QrzJZaim026d67CB/UBcvDYYhPiom1WkOrltXs9paduyopfmxeFmCcCpw8AsMJUyUrmgmXoYxVUq9Ymox0ogsPoJdCElD2dGpcTfIWXw8rE413So+gksd6go+2NXmF10Ll+VMJipeQpamliRkwnaNU2JerZoo5HGvLee62lYEhcjiLRSr16F8bVAD558OlFQWrs65XrKRy5dUi0O2qjqimZqE06gtTpxfXlu0LGhzdTDGMHxpAwW4x2ob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" alt="Google Cloning" />
+              <div class="overlay">
+                <p>Google Cloning</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/vaniaramirezromero/clonacion-google"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://borjaarandavaquero.com/wp-content/uploads/2021/07/que-es-html.jpg" alt="Proyecto 2" />
+              <div class="overlay">
+                <p>Introduction to HTML</p>
+                <div class="iconos-contenedor">
+                  <a
+                    href="https://github.com/vaniaramirezromero/tecnolochicasPro"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <a href="https://github.com/vaniaramirezromero" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          See more projects
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonials</h2>
+      <h3 class="seccion-descripcion">
+        Here are some testimonials from my clients and collaborators...
+      </h3>
+
+      <!-- Carrusel -->
+      <div
+        id="testimonios-carrusel"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="https://media.discordapp.net/attachments/1066039362502000670/1080298033318735943/IMG_20220130_174935.jpg?width=543&height=609"
+                alt="Foto de Mireya Mascorro Delgado"
+              />
+              <p class="testimonio-texto">
+                She is a dedicated student and passionate about web development. Her HTML and CSS work shows great commitment and attention to detail. I highly recommend working with her as her skill and enthusiasm are infectious.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Mireya Mascorro Delgado</p>
+                <p class="cargo">Telecommunications, Systems and Electronics Engineering</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="https://media.discordapp.net/attachments/1066039362502000670/1080301748599660604/285586166_559676875738521_709170555111940996_n.jpg?width=606&height=609"
+                alt="Foto de Ana Laura Cruz Rivera"
+              />
+              <p class="testimonio-texto">
+                She is a dedicated student and passionate about web development. Her HTML and CSS work shows great commitment and attention to detail. I highly recommend working with her as her skill and enthusiasm are infectious.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Ana Laura Cruz Rivera</p>
+                <p class="cargo">Computer Systems Engineering</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="https://media.discordapp.net/attachments/1044414783912419392/1079110764981407927/fotodenancy.jpg?width=607&height=609"
+                alt="Foto de Nancy Salazar"
+              />
+              <p class="testimonio-texto">
+                She proved to be a very committed student in her training as a web programmer. She developed technical skills in a short time and I would definitely work with her again.              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Nancy Salazar</p>
+                <p class="cargo">LinkedIn Top Voice in Technology | Product Manager @ U Camp | Mentor Leader at Tecnolochicas | Creative Coding Teacher @ CENTRO | IT Engineer | Techfluencer | Speaker | Mentor </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Pie de pagina (footer) -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+      id="contact"
+    >
+      <img
+        class="footer-logo"
+        src="imagenes/icono-blanco.svg"
+        alt="Logo del portafolio"
+      />
+      <p class="footer-texto text-center">
+        Contact me!<br />Let's create a project together.
+      </p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+
+        </a>
+        <a href="https://github.com/vaniaramirezromero" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/vaniaramirezrom/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a
+          href="mailto:vaniaramirezrom@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Created by Vania Ramirez (2023) &#169;</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
